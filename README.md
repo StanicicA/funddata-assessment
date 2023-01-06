@@ -2,9 +2,11 @@
 
 Normal distribution is the default probability for many real-world scenarios. It represents a symmetric distribution where most of the observations cluster around the central peak called as mean of the distribution. A normal distribution can be thought of as a bell curve or Gaussian Distribution which typically has two parameters: mean and standard deviation (SD).
 
-## Mean – The mean is the usual average. The sum of total points divided by the total number of points.
+## Mean
+The mean is the usual average. The sum of total points divided by the total number of points.
 
-## Standard Deviation – Standard deviation tells us how “spread out” the data is. It is a measure of how far each observed value is from the mean.
+## Standard Deviation
+Standard deviation tells us how “spread out” the data is. It is a measure of how far each observed value is from the mean.
 Here are some of the properties of the normal distribution of the population:
 
 >The points in the normal distribution are symmetric. The normal distribution can not be used to model skewed distributions.
@@ -16,7 +18,7 @@ Following is the formula for the Normal Distribution:
 ![image](https://user-images.githubusercontent.com/98254584/211112342-34258291-8db0-422f-9cd4-a7e6f56e4e6c.png)
 
 An easily understood application for Calculus lies in statistics, in the forms of the normal or Gaussian distribution. The normal distribution or "bell curve" looks like this when plotted:
-![Normal Distribution](![image](https://user-images.githubusercontent.com/98254584/211110543-84a4b9da-7373-4f91-8e1d-0ff14a74006c.png)
+![image](https://user-images.githubusercontent.com/98254584/211110543-84a4b9da-7373-4f91-8e1d-0ff14a74006c.png)
 
 *To get the above plot, I've used the below code importing the following:
 
@@ -25,9 +27,7 @@ An easily understood application for Calculus lies in statistics, in the forms o
 ## Some of the basic Normal Distribution content:
 
 **Probability Density Function**
-The normal distribution density function simply accepts a data point along with a mean value and a standard deviation and throws a value which we call probability density. Here is the probability density function for normal distribution:
-
-![image](https://user-images.githubusercontent.com/98254584/211111337-6947de8b-8a54-46d1-a058-8b72f1d3d3fe.png)
+The normal distribution density function simply accepts a data point along with a mean value and a standard deviation and throws a value which we call probability density.
 
 **Cumulative Distribution Function**
 For many purposes we need to integrate the Probability Density Function to be able to quantify and characterize natural distributions, but, in spite of its great importance to the field of statistics, there is no analytical integral for the PDF — integration of the PDF is carried out numerically. The much-used Cumulative Distribution Function (CDF) is only ever an approximation based on carefully designed numerical methods.
@@ -41,7 +41,7 @@ To find the probability of an interval between certain variables, you need to su
 **Multivariate Normal Distribution**
 The multivariate normal distribution is often used to describe any set of correlated real-valued random variables.
 
-+*Here is the summary of what we have learned in relation to Normal distribution*:
+*Here is the summary of what we have learned in relation to Normal distribution*:
 
 - Normal distribution is a symmetric probability distribution with equal number of observations on either half of the mean.
 
@@ -57,8 +57,8 @@ The multivariate normal distribution is often used to describe any set of correl
 
 ## Resources:
 ```bash
-* https://arachnoid.com/IPython/normal_distribution.html
-* https://docs.sympy.org/dev/modules/stats.html#module-sympy.stats
+1. https://arachnoid.com/IPython/normal_distribution.html
+2.https://docs.sympy.org/dev/modules/stats.html#module-sympy.stats
 * https://vitalflux.com/normal-distribution-explained-python-examples/
 * https://www.askpython.com/python/normal-distribution
 * https://towardsdatascience.com/exploring-normal-distribution-with-jupyter-notebook-3645ec2d83f8
