@@ -34,16 +34,16 @@ The normal distribution density function simply accepts a data point along with 
 +**Cumulative Distribution Function**
 For many purposes we need to integrate the Probability Density Function to be able to quantify and characterize natural distributions, but, in spite of its great importance to the field of statistics, there is no analytical integral for the PDF — integration of the PDF is carried out numerically. The much-used Cumulative Distribution Function (CDF) is only ever an approximation based on carefully designed numerical methods.
 
-+**Percent point function**
++Percent point function
 ppf is the inverse of cdf and it is called the Percent point function. Given the mean of 1 and the standard deviation of 3, we can find the quantile a in 𝑃(𝑋<𝑎)=0.506 by using ppf.
 
-+**Interval between variables**
++Interval between variables
 To find the probability of an interval between certain variables, you need to subtract cdf from another cdf.
 
-+**Multivariate Normal Distribution**
++Multivariate Normal Distribution
 The multivariate normal distribution is often used to describe any set of correlated real-valued random variables.
 ```
-*Here is the summary of what we have learned in relation to Normal distribution*:
+*Normal distribution Summary*:
 
 - Normal distribution is a symmetric probability distribution with equal number of observations on either half of the mean.
 
